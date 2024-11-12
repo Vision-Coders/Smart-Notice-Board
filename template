@@ -1,0 +1,42 @@
+Home Page:
+•	Header:
+	School/Organization Logo
+	Navigation Menu (Home, Notices, Contact, About)
+•	Main Section:
+	Welcome Message
+	Brief Introduction about the website's purpose
+•	Footer:
+	Contact Information
+	Social Media Links
+Notices Page:
+•	Header:
+	Title: "Notices"
+•	Main Section:
+	Notice Form:
+	Title Input Field
+	Message Text Area
+	Recipient Options (All Students, All Teachers, Specific Groups)
+	Send Button
+•	Notice List:
+	Display recent notices with title and date
+	Option to view full notice
+Contact Page:
+•	Header:
+	Title: "Contact Us"
+•	Main Section:
+	Contact Form (Name, Email, Message)
+	School/Organization Address and Phone Number
+About Page:
+•	Header:
+	Title: "About Us"
+•	Main Section:
+	Information about the school/organization
+	Mission and Vision
+•	Design Tips:
+	Use a clean and simple design with a consistent colour scheme.
+	Ensure the website is mobile-friendly.
+	Use clear and readable fonts.
+•	Technical Tips:
+	Use Dart for the front-end logic and MySQL for the database to store notices and user information.
+	Implement user authentication to ensure only authorized personnel can send notices.
+	Consider using a framework like Flutter for a more interactive front-end experience
