@@ -73,3 +73,85 @@ h1 {
 .login-button:hover {
     background-color: #45a049;
 }
+
+  
+.add-div{
+    width: 100%;
+    height: 700px;
+    overflow-y: scroll;
+    border: 2px solid #000000;
+    margin-top: 10px;
+    justify-content: center
+}
+.center-container {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+  
+.plus-sign {
+    width: 50px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+#dynamic-divs-container {
+    width: 48%;
+    margin: 10px auto;
+}
+  
+.new-div {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+  
+.input-field {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+  
+.textarea-field {
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: none;
+}  
+
+.footer{
+    margin-top: 10px;
+    text-align: center;
+    border-top: 2px solid #000000;
+    height: 40%; 
+    width: 100%;
+    text-align: center;
+    background-color: #212529;
+    color: white;
+}
+.footer-images img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
