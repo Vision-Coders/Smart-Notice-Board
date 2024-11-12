@@ -7,6 +7,7 @@ function addNewDiv() {
     // Close button
     const closeButton = document.createElement('button');
     closeButton.innerHTML = '✖';
+    closeButton.style.margin = '10px';
     closeButton.classList.add('close-button');
     closeButton.onclick = () => container.removeChild(newDiv);
 
@@ -30,6 +31,7 @@ function addNewDiv() {
     // Submit button
     const submitButton = document.createElement('button');
     submitButton.innerHTML = 'Submit';
+    submitButton.style.margin = '10px';
     submitButton.classList.add('submit-button');
     submitButton.onclick = () => alert('Submitted!');
 
